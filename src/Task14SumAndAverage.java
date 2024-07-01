@@ -9,14 +9,17 @@ public class Task14SumAndAverage {
 
         int[] array = new int[n];
         System.out.println("Enter the elements:");
-        for (int i = 0; i < n; i++) {
-            array[i] = scanner.nextInt();
-        }
+
+        for (int i = 0; i < n; i++)
+            {
+                array[i] = scanner.nextInt();
+            }
 
         int sum = 0;
-        for (int num : array) {
-            sum += num;
-        }
+        for (int num : array)
+            {
+                sum += num;
+            }
 
         double average = n > 0 ? (double) sum / n : 0;
 

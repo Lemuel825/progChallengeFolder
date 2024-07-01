@@ -9,9 +9,7 @@ public class Task5OddEvenPositiveNegative {
             System.out.print("Invalid input!. \nPlease enter a valid number: ");
             scanner.next();
         }
-
         int number = scanner.nextInt();
-
         if (number > 0) {
             System.out.println("The number is positive.");
         } else if (number < 0) {
@@ -19,7 +17,6 @@ public class Task5OddEvenPositiveNegative {
         } else {
             System.out.println("The number is zero.");
         }
-
         if (number % 2 == 0) {
             System.out.println("The number is even.");
         } else {

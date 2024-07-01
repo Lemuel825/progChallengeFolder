@@ -8,11 +8,9 @@ public class Task1GradeSystem {
         int score = scanner.nextInt();
 
         char grade = (score >= 90) ? 'A' :
-                (score >= 80) ? 'B' :
-                        (score >= 70) ? 'C' :
-                                (score >= 60) ? 'D' : 'F';
+                        (score >= 80) ? 'B' :
+                            (score >= 70) ? 'C' : (score >= 60) ? 'D' : 'F';
 
-        // Output the grade
         System.out.print("The student's grade is: " + grade);
     }
 }

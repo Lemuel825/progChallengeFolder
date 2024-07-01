@@ -8,7 +8,6 @@ public class Task2DaysOfMonth {
                 "January", "February", "March", "April", "May", "June",
                 "July", "August", "September", "October", "November", "December"};
 
-
         while (true) {
             System.out.print("Enter a Month number: ");
             month = scanner.nextInt();
