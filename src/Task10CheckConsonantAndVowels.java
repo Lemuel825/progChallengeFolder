@@ -15,9 +15,11 @@ public class Task10CheckConsonantAndVowels {
                     consonants++;
                 }
             }
-//            else if (!Character.isWhitespace(ch) && !Character.isDigit(ch) && ch != '?' && ch != '&' && ch != '*') {
-//                System.out.println("Ignoring symbol: " + ch);
-//            }
+            else{
+                 System.out.println("Invalid Input!");
+                break;
+            }
+            
         }
 
         System.out.println("Number of vowels: " + vowels);
